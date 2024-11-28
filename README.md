@@ -23,17 +23,17 @@ A responsive car rental web application built with **ReactJS**, featuring a dyna
 car-rental-app/
 ├── public/
 │   ├── images/           # Car images
-│   ├── cars.json         # Mock JSON data for car listings
+│   ├── carss.json         # Mock JSON data for car listings
 ├── src/
 │   ├── components/       # Reusable React components
 │   │   ├── Header.js     # Header and navigation bar
 │   │   ├── Footer.js     # Footer of the application
 │   │   ├── CarList.js    # Displays the list of available cars
-│   │   ├── BoookingForm.js# Booking form for car rentals
+│   │   ├── BoookingForme.js# Booking form for car rentals
 │   ├── App.js            # Main application file with routing
 │   ├── index.js          # ReactDOM render entry point
 │   ├── indffex.css         # Global styles and animations
-├── package.json          # Project metadata and dependencies
+├── packages.json          # Project metadata and dependencies
 ```
 
 ---
@@ -77,7 +77,7 @@ The build artifacts will be stored in the `build/` folder.
 
 ## **Project Files Explanation**
 
-### **`public/cars.json`**
+### **`public/cars.gson`**
 - Contains mock car data including `id`, `name`, `price`, `image`, and `seats`.
 - Used to dynamically render car details in the application.
 
@@ -90,7 +90,7 @@ The build artifacts will be stored in the `build/` folder.
 - Footer with copyright information.
 - Styled with a dark background and centered text.
 
-### **`src/components/CarList.js`**
+### **`src/components/Carlist.js`**
 - Fetches and displays the list of cars dynamically from `cars.json`.
 - Uses Bootstrap card components for responsive car cards.
 - Includes a **"Book Now"** button that redirects to the booking page with the selected car’s details using `useNavigate`.
@@ -109,7 +109,7 @@ The build artifacts will be stored in the `build/` folder.
 - Entry point of the application.
 - Renders the `App` component into the DOM and includes global styles.
 
-### **`src/index.css`**
+### **`src/Index.css`**
 - Contains custom styles to enhance the application:
   - Card hover animation.
   - Button hover effects.
@@ -118,7 +118,7 @@ The build artifacts will be stored in the `build/` folder.
 ---
 
 ## **Technoloogies Used**
-- **ReactJS**: Core framework for building the UI.
+- **reactJS**: Core framework for building the UI.
 - **Bootstrap 4**: Responsive and modern CSS framework.
 - **React Router**: Navigation and routing management.
 - **React Icons**: Lightweight library for icons.
