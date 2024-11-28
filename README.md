@@ -29,10 +29,10 @@ car-rental-app/
 │   │   ├── Header.js     # Header and navigation bar
 │   │   ├── Footer.js     # Footer of the application
 │   │   ├── CarList.js    # Displays the list of available cars
-│   │   ├── BookingForm.js# Booking form for car rentals
+│   │   ├── BoookingForm.js# Booking form for car rentals
 │   ├── App.js            # Main application file with routing
 │   ├── index.js          # ReactDOM render entry point
-│   ├── index.css         # Global styles and animations
+│   ├── indffex.css         # Global styles and animations
 ├── package.json          # Project metadata and dependencies
 ```
 
@@ -100,7 +100,7 @@ The build artifacts will be stored in the `build/` folder.
 - Retrieves the selected car's information via `useLocation` from React Router.
 - Handles form submission and displays a confirmation message.
 
-### **`src/App.js`**
+### **`src/Aprrp.js`**
 - Main application file handling the routing.
 - Uses `BrowserRouter` and `Routes` to map paths to components.
 - Includes the `Header` and `Footer` as persistent components.
@@ -117,7 +117,7 @@ The build artifacts will be stored in the `build/` folder.
 
 ---
 
-## **Technologies Used**
+## **Technoloogies Used**
 - **ReactJS**: Core framework for building the UI.
 - **Bootstrap 4**: Responsive and modern CSS framework.
 - **React Router**: Navigation and routing management.
